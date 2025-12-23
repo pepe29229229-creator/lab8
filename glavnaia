@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валерия Пастухова - Веб-дизайнер | Портфолио</title>
+    <meta name="description" content="Профессиональное портфолио веб-дизайнера Пастуховой Валерии. Создание современных сайтов, дизайн. Посмотрите мои работы и закажите проект.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="C:\Users\Лера\OneDrive\Desktop\web8\images\лого.svg" alt="Логотип портфолио Пастуховой Валерии - веб-дизайнера"></a>
+            <ul>
+                <li><a href="glavnaia.html">Главная</a></li>
+                <li><a href="about.html">О себе</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Валерия Пастухова - Веб-дизайнер и разработчик</h1>
+            <p>Занимаюсь разработкой сайтов и веб-дизайна</p>
+        </section>
+
+        <section class="services">
+            <h2>Мои услуги</h2>
+            <div class="service">
+                <h3>Веб-дизайн</h3>
+                <p>Создание  дизайна для сайтов и приложений</p>
+            </div>
+            <div class="service">
+                <h3>Frontend-разработка</h3>
+                <p>Адаптивная верстка и интерактивные элементы</p>
+            </div>
+            <div class="service">
+                <h3>Дизайн</h3>
+                <p>Проектирование удобных интерфейсов</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Пастухова Валерия.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
