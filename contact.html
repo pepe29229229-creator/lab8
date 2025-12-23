@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Свяжитесь с веб-дизайнером Валерией Пастуховой</title>
+    <meta name="description" content="Свяжитесь с веб-дизайнером Валерией Пастуховой для заказа сайта или дизайн-проекта. Контакты, форма обратной связи и время работы.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="glavnaia.html"><img src="C:\Users\Лера\OneDrive\Desktop\web8\images\лого.svg" alt="Логотип веб-дизайнера Валерии Пастуховой - контакты"></a>
+            <ul>
+                <li><a href="glavnaia.html">Главная</a></li>
+                <li><a href="about.html">О себе</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Свяжитесь со мной</h1>
+        <p>Готовы обсудить ваш проект? Заполните форму ниже или напишите мне напрямую.</p>
+        
+        <div class="contact-container">
+            <section class="contact-form">
+                <h2>Форма обратной связи</h2>
+                <form id="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" required placeholder="Супер Крутышка">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Электронная почта:</label>
+                        <input type="email" id="email" name="email" required placeholder="Super@mail.ru">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Телефон (необязательно):</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+7 (999) 123-99-99">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project-type">Тип проекта:</label>
+                        <select id="project-type" name="project-type">
+                            <option value="">Выберите тип проекта</option>
+                            <option value="website">Сайт-визитка</option>
+                            <option value="corporate">Корпоративный сайт</option>
+                            <option value="design">Дизайн интерфейса</option>
+                            <option value="other">Другое</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Опишите ваш проект, цели и пожелания..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Отправить сообщение</button>
+                </form>
+            </section>
+            
+            <section class="contact-info">
+                <h2>Контактная информация</h2>
+                <div class="info-item">
+                    <h3>Электронная почта</h3>
+                    <p><a href="mailto:valeriya.pastukhova@example.com">valeriya.pastukhova@example.com</a></p>
+                </div>
+                
+                <div class="info-item">
+                    <h3>Телефон</h3>
+                    <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                </div>
+                
+                <div class="info-item">
+                    <h3>Социальные сети</h3>
+                    <ul class="social-links">
+                        <li><a href="#" alt="Профиль Валерии Пастуховой в ВКонтакте">ВКонтакте</a></li>
+                        <li><a href="#" alt="Профиль Валерии Пастуховой в Telegram">Telegram</a></li>
+                        <li><a href="#" alt="Профиль Валерии Пастуховой на GitHub">GitHub</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Пастухова Валерия. Все права защищены.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
