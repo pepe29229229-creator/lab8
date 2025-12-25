@@ -6,4 +6,5 @@ Disallow: /images/
 
 Allow: /
 
-Sitemap: https://pepo29229229-createo.github.io/lab8/sitemap.xml
+Sitemap: https://pepo29229229-creator.github.io/lab8/sitemap.xml
+
